@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('BUILD') {
             steps {
-                echo 'This is $NAME'
+                echo "This is $NAME"
                 sh '''
         sleep 5
             exit 0
